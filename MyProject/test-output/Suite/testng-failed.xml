@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="find a flight(failed)" parallel="tests">
+    <classes>
+      <class name="FindAFlight">
+        <methods>
+          <include name="findAFlightTest"/>
+        </methods>
+      </class> <!-- FindAFlight -->
+    </classes>
+  </test> <!-- find a flight(failed) -->
+</suite> <!-- Failed suite [Suite] -->
